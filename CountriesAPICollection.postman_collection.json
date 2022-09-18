@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "7c733868-25b3-4d22-aab4-b891cf0335ba",
+		"name": "CountriesAPICollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23224117"
+	},
+	"item": [
+		{
+			"name": "https://restcountries.com/v2/lang/english",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.com/v2/lang/tam",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"com"
+					],
+					"path": [
+						"v2",
+						"lang",
+						"tam"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.com/v2/capital/delhi",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.com/v2/capital/delhi",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"com"
+					],
+					"path": [
+						"v2",
+						"capital",
+						"delhi"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Rawtext",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.getpostman.com/collections/c063e6157c4ce7a86c6d",
+					"protocol": "https",
+					"host": [
+						"www",
+						"getpostman",
+						"com"
+					],
+					"path": [
+						"collections",
+						"c063e6157c4ce7a86c6d"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
